@@ -9,7 +9,7 @@ void setup() {
   }
 }
 void clearpin() {
-  digitalWrite(2, LOW);
+  digitalWrite(2, 0);
   digitalWrite(3, LOW);
   digitalWrite(4, LOW);
   digitalWrite(5, LOW);
