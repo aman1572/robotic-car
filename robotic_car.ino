@@ -8,12 +8,6 @@ void setup() {
     pinMode(j, INPUT);
   }
 }
-void clearpin() {
-  digitalWrite(2, 0);
-  digitalWrite(3, LOW);
-  digitalWrite(4, LOW);
-  digitalWrite(5, LOW);
-}
 void forward() {
   digitalWrite(2, HIGH);
   digitalWrite(3, LOW);
